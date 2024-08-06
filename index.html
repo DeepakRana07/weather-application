@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style hr></style> -->
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+
+
+        <!-- <div class="getmylocation-container"> -->
+        <h1>Weather app</h1>
+        <div class="tab-container">
+            <p class="your-weather-tab tab">Your Weather</p>
+            <p class="search-weather-tab  tab">Search Weather</p>
+        </div>
+
+        <div class="weather-container">
+            <div class="grantlocation">
+
+               <div class="subcontainer">
+
+                <img src="https://codehelp-weather-app.netlify.app/assets/location.png" alt="" width="400px"
+                    height="300px">
+
+                <h2 class="Temparturedata"></h2>
+
+                <h1>Grant location Access</h1>
+                <p>Allow Access To Get Weather Information</p>
+
+                <button class="gbtn">Grant Access</button>
+
+               </div>
+
+            </div>
+
+            <!-- </div> -->
+
+            <div >
+                <!-- <div> -->
+                <form action="" class="form-container" >
+                    <input type="text" class="data-search-input " placeholder="Search for city ..">
+                    <button type="submit">
+                        <img src="https://codehelp-weather-app.netlify.app/assets/search.png" width="30px" height="30px" alt="">
+                    </button>
+                </form>
+                <!-- </div> -->
+            </div>
+
+            <div class=" subcontainer  loading-container">
+
+                <img src=" https://codehelp-weather-app.netlify.app/assets/loading.gif"
+                    alt="">
+                <p>loading</p>
+            </div>
+
+            <div class="user-info-container subcontainer">
+                <div class="name">
+                    <!-- city name and flag -->
+                    <p class="cityname"></p>
+                    <img class="cityicon" src="" alt="">
+
+                </div>
+
+                <!-- weather description -->
+
+                <p class="weatherdesc"></p>
+                <img src="" class="dataweathericon" alt="">
+                <!-- temperature -->
+                <p class="weathertemp"></p>
+                <!-- weather parameters -->
+                <div class="parameters-container">
+                    <!-- card1 -->
+                    <div class="parameter">
+                        <img src="https://codehelp-weather-app.netlify.app/assets/wind.png" alt="">
+                        <p>windspeed</p>
+                        <p class="windspeed-data"></p>
+
+                    </div>
+
+                    <!-- card2 -->
+                    <div class="parameter">
+                        <img src="https://codehelp-weather-app.netlify.app/assets/humidity.png" alt="">
+                        <p>humidity</p>
+                        <p class="humidity-data"></p>
+                    </div>
+                    <!-- card3 -->
+                    <div class="parameter">
+                        <img src="https://codehelp-weather-app.netlify.app/assets/cloud.png" alt="">
+                        <p>clouds</p>
+                        <p class="cloud-data"></p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
